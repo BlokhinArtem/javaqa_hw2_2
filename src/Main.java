@@ -6,9 +6,9 @@ public class Main {
         if (income > 1000) {
             bonus = income / 100;
         } else {
-           bonus = 0;
+            bonus = 0;
         }
         System.out.println(initial_account + income + bonus + "рублей");
     }
 
-    }
+}
